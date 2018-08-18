@@ -1,0 +1,56 @@
+Build automation: automation of the process of preparing code for deployment to a live.Depending on what languages are used, code needs to be compiled, linted, minified, transformed,
+unit tested, etc.
+
+Tools - Maven , Ant (Java)
+
+....................................................................................................
+
+Continuous Integration (CI): the practice of frequently merging code changes done by developers
+
+Tools - Jenkins , travisCI
+.....................................................................................................
+Continuous Delivery (CD): the practice of continuously maintaining code in a deployable state
+Continuous Deployment: the practice of frequently deploying small code changes to production.
+Continuous delivery is keeping the code in a deployable state. Continuous deployment is actually
+doing the deployment frequently.
+----------------------------------------------------------------------------------------------------------
+
+Configuration Management: maintaining and changing the state of pieces of infrastructure in a
+consistent, maintainable, and stable way
+Infrastructure as Code (IaC): manage and provision infrastructure through code and automation.
+
+Tools : Ansible , Puffet , Chef & Salt
+
+-----------------------------------------------------------------------------------------------------------
+Orchestration: automation that supports processes and workflows, such as provisioning resources.
+
+Tools - Docker Swarm , Kubernetes , Terraform , Zookeeper
+-----------------------------------------------------------------------------------------------------------
+Monitoring: The collection and presentation of data about the performance and stability of services
+and infrastructure.
+
+Aggregation and Analytics are about collecting monitoring data and doing something with it
+
+Infra monitoring Tools - Sensu , Newrelic
+
+Application Performance monitoring Tools -  AppDynamics , Newrelic
+
+Aggregation and Analytics Tools - Elastic Stack
+-----------------------------------------------------------------------------------------------------------
+
+Microservices: A microservice architecture breaks an application up into a collection of small,
+loosely-coupled services
+
+--------------------------------------------------------------------------------------------------------------
+
+Virtualization – Managing resources by creating virtual rather than physical machines
+
+Tools - Hypervisor ,VMware ES/ESXi , Microsoft Hyper V and Citrix xenserver
+
+-------------------------------------------------------------------------------------------------------------
+
+Containers – Lightweight, isolated packages containing everything needed to run a piece of software.
+
+Tools - Docker
+
+--------------------------------------------------------------------------------------------------------------
